@@ -36,22 +36,6 @@ int main()
     {
         printf("Mozesz glosowac w wyborach samozadowych");
     }
-    if(rok=2000)
-    {
-        if(miesiac<=11)
-        {
-            if(dzien<=9)
-            {
-                printf("Mozesz glosowac w wyborach samozadowych");
-            }
-            if(dzien>9)
-            {
-                printf("Nie mozesz glosowac w wyborach samozadowych");
-            }
-        }
-        if(miesiac>12)
-        {
-            printf("Nie mozesz glosowac w wyborach samozadowych");
         }
     }
         if(rok>2001)
