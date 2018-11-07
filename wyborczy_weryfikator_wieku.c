@@ -13,6 +13,7 @@ int main()
             printf("Zly dizen \n");
         }
         else;
+<<<<<<< HEAD
     }while(dzien<1 || dzien>31);
     do
     {
@@ -53,6 +54,24 @@ int main()
         {
             printf("Nie mozesz glosowac w wyborach samozadowych");
         }
+=======
+    }whi
+    }
+        if(rok==1993)
+    {
+        if(miesiac<=11)
+        {
+            if(dzien<=9)
+            {
+                printf("mozesz kandydowac na prezydenta miasta \n");
+            }
+            if(dzien>9)
+            {
+                printf("n
+    if(miesiac>=12)
+    {
+        printf("nie mozesz kandydowac na prezydenta miasta \n");
+>>>>>>> parent of 2cb3fc5... Update wyborczy_weryfikator_wieku.c
     }
         if(rok>2001)
     {
