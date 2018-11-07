@@ -34,29 +34,55 @@ int main()
     }while(rok<1 || rok>2018);
     if(rok<=1999)
     {
-        printf("Mozesz glosowac w wyborach samozadowych");
+        printf("Mozesz glosowac w wyborach samozadowych i ");
     }
-    if(rok=2000)
+    if(rok==2000)
     {
         if(miesiac<=11)
         {
             if(dzien<=9)
             {
-                printf("Mozesz glosowac w wyborach samozadowych");
+                printf("Mozesz glosowac w wyborach samozadowych i ");
             }
             if(dzien>9)
             {
-                printf("Nie mozesz glosowac w wyborach samozadowych");
+                printf("Nie mozesz glosowac w wyborach samozadowych i ");
             }
         }
-        if(miesiac>12)
-        {
-            printf("Nie mozesz glosowac w wyborach samozadowych");
-        }
-    }
-        if(rok>2001)
+    if(miesiac>=12)
     {
-        printf("Nie mozesz glosowac w wyborach samozodowych");
+        printf("Nie mozesz glosowac w wyborach samozadowych i ");
+    }
+    }
+    if(rok>=2001)
+    {
+        printf("Nie mozesz glosowac w wyborach samozodowych  i");
+    }
+    if(rok<1993)
+    {
+        printf("mozesz kandydowac na prezydenta miasta \n");
+    }
+    if(rok>1993)
+    {
+        printf("nie mozesz kandydowac na prezydenta miasta \n");
+    }
+        if(rok==1993)
+    {
+        if(miesiac<=11)
+        {
+            if(dzien<=9)
+            {
+                printf("mozesz kandydowac na prezydenta miasta \n");
+            }
+            if(dzien>9)
+            {
+                printf("nie mozesz kandydowac na prezydenta miasta \n");
+            }
+        }
+    if(miesiac>=12)
+    {
+        printf("nie mozesz kandydowac na prezydenta miasta \n");
+    }
     }
     getchar();
     return 0;
